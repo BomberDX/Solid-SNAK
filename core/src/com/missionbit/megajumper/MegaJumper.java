@@ -76,7 +76,7 @@ public class MegaJumper extends ApplicationAdapter {
         platforms.clear();
         for (int i = 0; i < NUM_OF_PLATFORMS; i++) {
             platforms.add(new Platform());
-            platforms.get(i).setPosition((float) Math.random() * width, i * height / NUM_OF_PLATFORMS);
+            platforms.get(i).setPosition((float) Math.random() * width, i * height / NUM_OF_PLATFORMS); 
 
 
         }
