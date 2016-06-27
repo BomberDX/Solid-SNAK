@@ -16,13 +16,11 @@ public class Platform {
     private Vector2 position;
     private Rectangle bounds;
 
-    public Platform (float x, float y) {
+    public Platform () {
         width = Gdx.graphics.getWidth();
         height = Gdx.graphics.getHeight();
-        sprite = new Sprite(new Texture ("missionbit.png"));
+        sprite = new Sprite(new Texture ("treee.png"));
         position = new Vector2();
-        position.x = x;
-        position.y = y;
         bounds = new Rectangle();
         bounds.set(position.x, position.y, sprite.getWidth(), sprite.getHeight());
     }
